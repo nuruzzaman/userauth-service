@@ -111,6 +111,13 @@ Then run:
 docker-compose -f src/main/docker/app.yml up -d
 ```
 
+
+## Create docker image
+
+- `mvnw -ntp -Pprod verify jib:dockerBuild -DskipTests`
+- `mvnw package -Pprod verify jib:build -Djib.to.image=data2ml/userauth-service:latest -Djib.to.auth.username=data2ml -Djib.to.auth.password=* -DskipTests`
+
+
 ## GitHub Commit 
 
 - `git init`
