@@ -32,19 +32,13 @@ To edit the `api.yml` definition file, you can use a tool such as [Swagger-Edito
 To build the final jar and optimize the UserauthService application for production, run:
 
 ```
-
 ./mvnw -Pprod clean verify
-
-
 ```
 
 To ensure everything worked, run:
 
 ```
-
 java -jar target/*.jar
-
-
 ```
 
 
@@ -53,10 +47,7 @@ java -jar target/*.jar
 To package your application as a war in order to deploy it to an application server, run:
 
 ```
-
 ./mvnw -Pprod,war clean verify
-
-
 ```
 
 ## Testing
@@ -120,3 +111,11 @@ Then run:
 docker-compose -f src/main/docker/app.yml up -d
 ```
 
+## GitHub Commit 
+
+- `git init`
+- `git add README.md`
+- `git commit -m "first commit"`
+- `git branch -M main`
+- `git remote add origin https://github.com/nuruzzaman/userauth-service.git`
+- `git push -u origin main`
