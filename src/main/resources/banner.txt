@@ -1,0 +1,9 @@
+      _       _        ___            _ 
+     | |     | |      |__ \          | |
+   __| | __ _| |_ __ _   ) |_ __ ___ | |
+  / _` |/ _` | __/ _` | / /| '_ ` _ \| |
+ | (_| | (_| | || (_| |/ /_| | | | | | |
+  \__,_|\__,_|\__\__,_|____|_| |_| |_|_|
+                                                                               
+${AnsiColor.RED}:: data2ml :: Running Spring Boot ${spring-boot.version} ::
+:: http://data2ml.com.au/ ::${AnsiColor.DEFAULT}

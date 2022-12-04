@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  userauthservice-postgresql:
+    image: 'postgres:14.5'
+    container_name: userauthservice-postgresql
+    # volumes:
+    #     - ~/volumes/data2ml/UserauthService/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=soho123
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - POSTGRES_DB=UserauthService
+    ports:
+      - 5432:5432

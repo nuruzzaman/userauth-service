@@ -1,0 +1,23 @@
+{
+  "name": "userauth-service",
+  "version": "0.0.0",
+  "description": "Description for User Auth Service",
+  "private": true,
+  "license": "UNLICENSED",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "1.0.13-4.3.1",
+    "generator-jhipster": "^7.9.3",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.1.2"
+  },
+  "engines": {
+    "node": ">=12.16.1"
+  },
+  "scripts": {
+    "prettier:format": "prettier --write \"{,src/**/}*.{md,json,yml}\""
+  }
+}
